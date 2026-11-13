@@ -1,0 +1,20 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Compiled files
+*.o
+*.mod
+*.exe
+*.a
+*.so
+
+# Output files
+*.nc
+*.bin
+*.dat
+*.out
+*.log
+
+# Build directories
+build/
+output/
+EOF
